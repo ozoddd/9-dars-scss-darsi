@@ -1,0 +1,30 @@
+.header {
+  padding-top: 5.2rem;
+  padding-bottom: 5.2rem;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__container__logo {
+  // justify-content: center;
+}
+.header__container__btn {
+  // align-items: center;
+  padding: 1.4rem 4.5rem;
+  background-color: #030303;
+  border-radius: 28px;
+  color: #fff7f0;
+  font-family: "Plus Jakarta Sans" sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-style: normal;
+  height: 56px;
+  line-height: 0.5;
+  width: 228px;
+  &:hover {
+    color: #fff;
+    background-color: #755cde;
+  }
+}
